@@ -1,6 +1,6 @@
 {
   "name": "milind",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "Get to know Milind via `npx milind`.",
   "bin": {
     "awais": "index.js"
@@ -19,6 +19,7 @@
     "cli-welcome": "^2.2.1",
     "dependencies": "^0.0.1",
     "meow": "^7.0.1",
+    "milind": "^3.0.0",
     "ora": "^4.0.4"
   },
   "keywords": [
