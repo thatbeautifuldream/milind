@@ -11,12 +11,8 @@ module.exports = async () => {
   spinner.start(`${yellow(`FOLLOWERS`)} fetching…`);
   const [error, res] = await to(axios.get(apiURL));
   handleError(`API CALL FAILED`, error, true, true);
-
   const ghFollowers = res.data.followers;
   // spinner.succeed(`${green(`FOLLOWERS`)} fetched`);
   spinner.stop();
-
-  console.log(`
-GitHub Followers: ${ghFollowers}
-`);
+  console.log(`GitHub Followers: ${ghFollowers}`);
 };
