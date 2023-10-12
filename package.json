@@ -1,6 +1,6 @@
 {
   "name": "milind",
-  "version": "3.1.0",
+  "version": "0.1.0",
   "description": "Building better Web Experiences.",
   "bin": {
     "milind": "index.js"
@@ -17,7 +17,6 @@
     "cli-meow-help": "^2.0.1",
     "cli-strip-html": "^1.0.1",
     "cli-welcome": "^2.2.1",
-    "dependencies": "^0.0.1",
     "meow": "^7.0.1",
     "ora": "^4.0.4"
   },
